@@ -42,7 +42,6 @@ Designed for learning purposes, experimentation, and protocol research.
 <ul>
   <li>Go 1.20+</li>
   <li>Git</li>
-  <li>C compiler (required for cgo)</li>
 </ul>
 
 <hr/>
