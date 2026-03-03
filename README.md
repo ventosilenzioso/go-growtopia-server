@@ -1,73 +1,94 @@
-# go-growtopia-server 🚀
+<h1 align="center">go-growtopia-server 🚀</h1>
 
-Simple Growtopia ENet server with HTTPS support built in Golang.
+<p align="center">
+  Simple Growtopia ENet (cgo) server with built-in HTTP (80) and HTTPS (443) support written in Go.
+</p>
 
-## 📖 Overview
+<hr/>
 
-This project is a simple Growtopia private server implementation using:
+<h2>📖 Overview</h2>
 
-* 🌐 ENet for game networking (using cgo bindings)
-* 🔐 HTTPS server (port 443)
-* 🌍 HTTP server (port 80)
-* ⚙️ Built entirely in Go (Golang)
+<p>
+This project is a lightweight Growtopia private server implementation using:
+</p>
 
-Designed for learning, experimentation, and protocol research.
+<ul>
+  <li>🌐 ENet for game networking (via cgo bindings)</li>
+  <li>🔐 HTTPS server (Port 443)</li>
+  <li>🌍 HTTP server (Port 80)</li>
+  <li>⚙️ Fully written in Golang</li>
+</ul>
 
-## ✨ Features
+<p>
+Designed for learning purposes, experimentation, and protocol research.
+</p>
 
-* 🎮 ENet-based game server (ENet via cgo)
-* 🌍 Built-in HTTP (80)
-* 🔐 Built-in HTTPS (443)
-* ⚡ Lightweight and minimal setup
-* 🧩 Written in pure Go
+<hr/>
 
-## 📦 Requirements
+<h2>✨ Features</h2>
 
-* Go 1.20+
-* Git
+<ul>
+  <li>🎮 ENet-based multiplayer server (cgo)</li>
+  <li>🌍 Integrated HTTP service</li>
+  <li>🔐 Integrated HTTPS service</li>
+  <li>⚡ Minimal and lightweight architecture</li>
+  <li>🧩 Clean Go project structure</li>
+</ul>
 
-## 🚀 Installation
+<hr/>
 
-```bash
-git clone https://github.com/yourusername/go-growtopia-server.git
+<h2>📦 Requirements</h2>
+
+<ul>
+  <li>Go 1.20+</li>
+  <li>Git</li>
+  <li>C compiler (required for cgo)</li>
+</ul>
+
+<hr/>
+
+<h2>🚀 Installation</h2>
+
+<pre><code>git clone https://github.com/yourusername/go-growtopia-server.git
 cd go-growtopia-server
 go mod tidy
 go run main.go
-```
+</code></pre>
 
-## 🔌 Ports
+<hr/>
 
-* 🌍 80   → HTTP
-* 🔐 443  → HTTPS
-* 🎮 ENet port → Configurable inside `ServerConfiguration.toml`
+<h2>🔌 Ports</h2>
 
-## ⚠️ Notes
+<ul>
+  <li>🌍 <strong>80</strong> → HTTP</li>
+  <li>🔐 <strong>443</strong> → HTTPS</li>
+  <li>🎮 ENet Port → Configurable inside <code>ServerConfiguration.toml</code></li>
+</ul>
 
-This project is a simple implementation and is not affiliated with the official Growtopia game.
+<hr/>
 
-Use at your own risk.
+<h2>📜 License</h2>
 
----
-
-Made with ❤️ using Go.
-
----
-
-## 📜 License
-
+<p>
 This project is licensed under the MIT License.
+</p>
 
-You are free to use, modify, and distribute this software in accordance with the license terms.
+<hr/>
 
----
+<h2>🙏 Credits</h2>
 
-## 🙏 Credits
+<ul>
+  <li>ENet Networking Library</li>
+  <li>https://github.com/gtpshax</li>
+  <li>https://github.com/yoruakio</li>
+</ul>
 
-* ENet Networking Library
-  [https://github.com/lsalzman/enet](https://github.com/lsalzman/enet)
+<p>
+This project is not affiliated with the official Growtopia game.
+</p>
 
-* [https://github.com/gtpshax](https://github.com/gtpshax)
+<hr/>
 
-* [https://github.com/yoruakio](https://github.com/yoruakio)
-
-Special thanks to the open-source community for networking and protocol research contributions.
+<p align="center">
+Made with ❤️ using Go
+</p>
