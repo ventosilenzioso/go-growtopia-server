@@ -1,0 +1,9 @@
+[enet]
+port = 17091
+max_peers = 1024
+
+[https]
+port = 443
+http_port = 80
+cert_file = "internal/https-server/certs/cert.pem"
+key_file = "internal/https-server/certs/key.pem"
